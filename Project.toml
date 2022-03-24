@@ -1,0 +1,13 @@
+name = "DryRun"
+uuid = "36f063cf-22b5-4024-bb0f-a49ff59e2dc2"
+authors = ["Samuel Massinon <samuel.massinon@invenia.ca> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
